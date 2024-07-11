@@ -33,7 +33,6 @@ const storeItem = () =>{
                 <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 text-gray-900">
                         <section class="text-gray-600 body-font relative">
-                            <ValidetionErrors :errors="errors"/>
                             <form @submit.prevent="storeItem">
                                 <div class="container px-5 py-24 mx-auto">
                                     <div class="lg:w-1/2 md:w-2/3 mx-auto">
